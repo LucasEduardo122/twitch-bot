@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  killuabot:
+    build: .
+    command: node bot.js
+
